@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
                     decimalListHeight.add(".")
                 }
             }
-            if (decimalListWeight.size > 1){
+            if (decimalListWeight.size > 1 || decimalListHeight.size > 1){
                 Toast.makeText(this,"Only one decimal allowed", Toast.LENGTH_SHORT).show()
             }
             else {

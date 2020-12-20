@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/weight_text_view"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_sixteen"
+        android:gravity="center"
+        android:digits="1234567890."
+        android:hint="@string/str_weight"
+        android:importantForAutofill="no"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/height_text_view"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_sixteen"
+        android:gravity="center"
+        android:digits="1234567890."
+        android:hint="@string/str_height"
+        android:importantForAutofill="no"
+        android:inputType="number" />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:text="@string/str_calculate_button"
+        app:backgroundTint="#D5CDCD"
+        android:textColor="@color/black"
+        android:layout_marginTop="@dimen/margin_sixteen"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_sixteen"
+        android:fontFamily="@font/acme"
+        android:textSize="@dimen/text_size_twenty"
+        android:visibility="visible"
+        tools:text="20" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_sixteen"
+        android:contentDescription="@string/str_image_desc"
+        tools:srcCompat="@drawable/healthy"
+        />
+
+
+
+
+
+
+</LinearLayout>
+

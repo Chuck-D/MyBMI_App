@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My BMI App</string>
+    <string name="str_weight">Weight in LBS</string>
+    <string name="str_height">Height in Inches</string>
+    <string name="str_calculate_button">Calculate</string>
+    <string name="str_result">Result</string>
+    <string name="str_image_desc">appropriate image according to your bmi</string>
+</resources>
